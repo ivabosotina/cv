@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Curriculum Vitae</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS.css">
+    <link rel="PDF/CV Iva Bosotina.pdf">
+</head>
+
+<body>
+    <header>
+        <div class="universe">universe</div>
+        <div class="menu">
+            <ul>
+                <li><a class="active" href="#about">About</a></li>
+                <li><a href="#work">Work experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <!--ABOUT DEO-->
+        <section id="about" class="section1">
+
+            <h1>Iva Bosotina</h1>
+
+            <div class="img">
+
+            </div>
+
+            <h3>Frontend Developer to be....</h3>
+            <p>Self tought Junior Frontend Developer, mentoring by Dami. New in this area, but also creative and
+                inspired, love to fix problems and make new ones :)</p>
+
+            <div class="download">
+                <a style="color: white;" href="PDF/CV Iva Bosotina.pdf" download><span class="download-text"
+                        style="color: white;">Download</span></a>
+            </div>
+
+            <script> /*
+ let button = document.querySelector("download a");
+ button.addEventListener("click", () => {
+     const span = document.querySelector("a span");
+     button.style.paddingRigh = `10p`;
+     span.style.visibility = "visible";
+     setTimeout(() => {
+         spam.style.visibility = "hidden";
+         button.style.transition = "1s ease-in-out"
+         button.style.paddingRigh = "0px";
+     }, 3000);
+
+ }) */</script>
+
+        </section>
+
+        <div class="callout">
+
+
+            <!--WORK DEO-->
+            <aside><strong>Work experience</strong></aside>
+
+            <section id="work" class="section2">
+                <div class="work-text">
+                    <h1>Web Design internship</h1>
+                    <h3>Udemy Academy</h3>
+                </div>
+                <article>
+                    Learning and making my first Website using HTML and CSS. I learned how to use different tools,
+                    create different styles and solve different problems.
+                </article>
+
+
+            </section>
+
+
+
+
+            <!--education deo-->
+
+
+            <section id="education" class="section3">
+
+
+                <h3>Education</h3>
+
+                <h1>Udacity Academy and mentoring by Dami</h1>
+                <article>learning basic of JavaScript together with improving HTML and CSS knowlege.</article>
+
+                <h2>Udemy Academy</h2>
+
+                <article>learning Html and CSS since 11/2020</article>
+
+            </section>
+
+
+
+
+
+            <!--callout /div-->
+
+    </header>
+
+    <!--contact deo-->
+    <footer>
+        <h1>Let`s keep in touch!</h1>
+        <a href="https://www.linkedin.com/in/iva-bosotina-32241283/"> <img src="img/linkedin.png" width=20px
+                heigh=20px></a>
+        <a href="mailto:ivabosotina89@gmail.com"><img src="img/email.png" width=20px height=20px></a>
+        <p>@Copyright 2021 - Iva Bosotina</p>
+
+        <!--clock-->
+        <divn id="MyClockDisplay" class="time">
+            </div>
+
+            <script type="text/javascript">
+
+
+                function showTime() {
+                    var date = new Date();
+                    var h = date.getHours(); // 0 - 23
+                    var m = date.getMinutes(); // 0 - 59
+                    var s = date.getSeconds(); // 0 - 59
+                    var session = "AM";
+
+                    if (h == 0) {
+                        h = 12;
+                    }
+
+                    if (h > 12) {
+                        h = h - 12;
+                        session = "PM";
+                    }
+
+                    h = (h < 10) ? "0" + h : h;
+                    m = (m < 10) ? "0" + m : m;
+                    s = (s < 10) ? "0" + s : s;
+
+                    var time = h + ":" + m + ":" + s + " " + session;
+                    document.getElementById("MyClockDisplay").innerText = time;
+                    document.getElementById("MyClockDisplay").textContent = time;
+
+                    setTimeout(showTime, 1000);
+
+                }
+
+                showTime();
+
+
+            </script>
+
+    </footer>
+    </div>
+</body>
+
+</html>

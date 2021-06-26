@@ -1,0 +1,216 @@
+html, body {
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+.universe {
+    background-image: url(img/universe.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 100px;
+      
+}
+
+  .menu {
+      background-color: #ffff;
+      padding-top: 20px;
+     
+  }
+  .menu ul{
+      margin: 0;
+      padding: 0;
+      text-align: center;
+  }
+
+  .menu ul li {
+      list-style: none;
+      margin: 0 20px;
+      display: inline;
+  }
+
+  .menu ul li a {
+      color: rgb(8, 8, 102);
+      font-size: 1em;
+      line-height: 1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 15px 20px;
+      display: inline-block;
+      font-weight: 700;
+      transition: 0.10s;
+  }
+
+  .menu ul li:hover {
+      background: rgb(140, 207, 247);
+      padding: 10px 10px;
+  }
+
+
+    /* ABOUT DEO*/
+.section1{
+    min-height: 300px;
+    justify-content: center;
+     align-items: center;
+    font-weight: 500;
+    background-color:  rgb(7, 7, 43);
+    color:rgb(152, 152, 247);
+    text-decoration:none;
+    
+}
+    .section1 h1 {
+        text-align: center;
+        margin-right: 30px;
+        padding-top:30px;
+        }
+ /*img*/
+.img {
+    width:200px;
+   text-align:center;
+    background-color: white;
+    background-image: url(img/cv-slika.jpg);
+    background-position: center center;
+    background-size: cover;
+    float:left;
+    padding: 100px 0;
+    margin-top:-30px;
+    border-radius: 100px;
+    margin-left:100px;
+    margin-right: 50px;
+    
+    
+    
+}
+
+
+/*DOWNLOAD BUTTON*/
+
+.download {
+
+
+    
+    text-decoration:none;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    float:right;
+    color: white;
+    
+    align-items: bottom;
+    justify-content: bottom;
+    padding: 0px 10px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 1px;
+    
+}
+
+.download-text {
+    color:white;
+}
+
+.download span {
+    position: relative;
+    width:1.5rem;
+    visibility: hidden;
+}
+
+.download span:after{
+    content:"\21D3";
+    font-size: medium;
+    position: absolute;
+    padding-left: 10px;
+    animation: down 1s linear infinite;
+}
+
+@keyframes download{
+    from{ top: -10px;
+        opacity: 0;
+    }
+
+    to{
+        top: 10px;
+        opacity: 1 ;
+    }
+}
+
+           /* WORK DEO */
+           
+  .section2 {
+    min-height: 300px;
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color:rgb(8, 8, 102);
+    margin-left: 350px;
+    flex-wrap: wrap;
+   margin-bottom: 20px;
+   background-color: white;
+   border: 1px solid grey;
+   box-sizing: border-box;
+    padding: 0 40px 20px 50px;
+    box-shadow: -5px 1px 5px rgb(21, 21, 63);
+    
+}
+.work-text h1 {
+    flex:1;
+    text-align: center;
+}
+
+.work-text h3 {
+    flex:1;
+    padding-left: 50px;
+    margin-bottom: 0;     
+}
+
+aside {
+    padding-left: 350px;
+    font-size: 20px;
+    margin-top:20px;
+    color:rgb(8, 8, 102);
+    
+}
+
+
+/* EDUCATION DEO*/
+
+.section3 {
+    min-height: 300px;
+    justify-content: center;
+     align-items: center;
+    font-weight: 500;
+    background-image: url(img/universe.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    color:white;
+    margin-bottom: 20px;
+    padding-left: 200px;
+    padding-top:30px;
+    color:rgb(152, 152, 247)
+}
+
+footer {
+    color: rgb(8, 8, 102);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* CLOCK*/
+.time {
+    font-size: 40px;
+}
+
+.time span:not(:last-child){
+    position: relative;
+    margin:0 6px;
+    font-weight: 500;
+    text-align:center;
+    letter-spacing: 2px;
+}
+
+
